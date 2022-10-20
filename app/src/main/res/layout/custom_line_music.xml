@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="120dp">
+      <androidx.cardview.widget.CardView
+          android:layout_width="wrap_content"
+          app:cardCornerRadius="50dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginLeft="20dp"
+          android:layout_height="wrap_content">
+          <ImageView
+              android:id="@+id/imgMusic"
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:scaleType="centerCrop" />
+      </androidx.cardview.widget.CardView>
+
+      <TextView
+          android:id="@+id/txt_nameMusic"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginStart="106dp"
+          android:layout_marginLeft="20sp"
+          android:layout_marginTop="24dp"
+          android:textColor="@color/white"
+          android:textSize="15sp" />
+
+      <ImageView
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginStart="107dp"
+          android:layout_marginTop="72dp"
+          android:src="@drawable/headphone" />
+
+      <TextView
+          android:id="@+id/txt_like"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginStart="150dp"
+          android:layout_marginTop="79dp"
+          android:textColor="@color/white"
+          android:textSize="15sp" />
+
+      <ImageView
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginStart="358dp"
+          android:layout_marginTop="73dp"
+          android:src="@drawable/icons8_heart_32" />
+
+      <TextView
+          android:id="@+id/txt_time"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_marginTop="79dp"
+          android:layout_marginEnd="63dp"
+          android:textColor="@color/white" />
+  </RelativeLayout>
+</RelativeLayout>

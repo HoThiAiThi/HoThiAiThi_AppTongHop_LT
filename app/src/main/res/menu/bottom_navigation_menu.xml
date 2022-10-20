@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_new"
+        android:icon="@drawable/newmusic"
+        android:title="Mới Nhất"/>
+    <item
+        android:id="@+id/nav_trend"
+        android:icon="@drawable/trend"
+        android:title="Thịnh Hành"/>
+    <item
+        android:id="@+id/nav_music_remix"
+        android:icon="@drawable/music"
+        android:title="Remix"/>
+    <item
+        android:id="@+id/nav_category"
+        android:icon="@drawable/category"
+        android:title="Thể loại"/>
+    <item
+        android:id="@+id/nav_regime"
+        android:icon="@drawable/starmenu"
+        android:title="Đánh giá"/>
+
+
+</menu>

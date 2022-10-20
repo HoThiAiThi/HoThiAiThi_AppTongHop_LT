@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitycategoryDetail">
+
+    <ImageView
+        android:id="@+id/imgcategory_detail"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:alpha="0.5"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nonstop" />
+    <TextView
+        android:id="@+id/txtcategory_detail"
+        android:layout_width="match_parent"
+        android:background="#6F2D74C1"
+        android:layout_height="70dp"
+        android:text="Nhac Nonstop"
+        android:padding="10dp"
+        android:textColor="#3A2222"
+        android:textSize="35sp"
+        android:layout_marginTop="180dp"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/lvcategory_detail"
+        android:background="@drawable/back2"
+        android:divider="@color/white"
+        android:dividerHeight="2dp"
+        android:listSelector="#3CFFFFFF"
+        android:layout_below="@+id/imgcategory_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
